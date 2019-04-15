@@ -1,0 +1,86 @@
+@keyframes success {
+  0% {
+    background-color: white;
+  }
+  
+  50% {
+    background-color: green;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes failure {
+  0% {
+    background-color: white;
+  }
+  
+  50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+.success {
+  animation: success 1.5s ease;
+}
+
+.failure {
+  animation: failure 1.5s ease;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 75px;
+}
+
+#grid-container a {
+  grid-row: 1;
+  grid-column: 1 / 13;
+
+  font-size: 2.5em;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+
+aside {
+  grid-row: 2;
+  grid-column: 1 / 5;
+}
+
+#dictionary {
+  grid-row: 2;
+  grid-column: 5 / 13;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  padding: 5px;
+  margin: 0 10px 10px 2px;
+
+  text-align: center;
+  font-size: 2em;
+  background-color: darkslateblue;
+  color: white;
+
+  width: auto;
+}
+
+
+
+
+
+
