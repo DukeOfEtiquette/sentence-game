@@ -1,6 +1,6 @@
 'use strict';
 
-let words = ['evelyn', 'dog', 'cat', 'sat', 'bat', 'the', 'he', 'she', 'a' , 'is'];
+let words = ['sat','bat','the','he','she','a','is','red','fall','on','hit','at','if','what','blue','out','and','you','run','me','was','want','sun','play','it','down','one','orange','purple','her','girl','boy','green','ball','ellie','can','tall','big','up','said','dog','cat'];
 const wordBoxClassName = 'box';
 const wordBoxHTML = `<span class="${wordBoxClassName}"></span>`;
 
